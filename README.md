@@ -31,9 +31,11 @@ Passo 3 - Protheus - Gerar Manifesto e CTE
 
 Foram séries de passos para a emissão de CTE junto ao MDFE e, para simplificar e otimizar esse processo, optei por automatizá-lo utilizando planilhas auxiliares e integrando dados do manifesto diretamente do banco de dados, desenvolvemos um sistema automatizado que executa essas etapas de forma eficiente e precisa.
 
-Empregamos três robôs para lidar com diferentes aspectos do processo, garantindo uma execução contínua e sem interrupções. Essa abordagem não apenas acelerou significativamente a emissão de CTE, mas também reduziu a possibilidade de erros humanos e inconsistências nos dados.
+Empregamos quatro robôs para lidar com diferentes aspectos do processo, garantindo uma execução contínua e sem interrupções. Essa abordagem não apenas acelerou significativamente a emissão de CTE, mas também reduziu a possibilidade de erros humanos e inconsistências nos dados.
 
 Com essa automação, conseguimos aumentar nossa produtividade e eficiência operacional, ao mesmo tempo em que garantimos a conformidade com os requisitos regulatórios.
+
+![FLUXO_CTE MDFE (1) (2) pdf](https://github.com/BertaT2C/Fluxograma_Automacao_RPA/assets/99225701/929d3025-2c22-4d1d-8246-01757e860d71)
 
 
 
