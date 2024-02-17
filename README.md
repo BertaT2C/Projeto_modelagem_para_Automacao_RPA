@@ -8,7 +8,7 @@ processo e identificar quais integrações e melhorias internas poderiam ser apl
 Este cliente possui um grande volume de emissões de CTE e MDFE.
 O usuário utiliza um coletor de dados e efetua leitura física dos produtos, as informações são integradas com uma "pasta específica no drive". Á partir desse momento o usuário precisa
 
-Passo 1 - Acessar a pasta no drive:
+Passo 1 - Acessar pasta no drive:
 - Identificar a filial da empresa
 - Efetuar login no Protheus
 
