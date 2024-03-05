@@ -1,10 +1,14 @@
-# Análise do processo de emissão de CTE/MDFE
+## Objetivo do projeto
+
+Aumentar a eficiência e a precisão do processo, reduzir erros e eliminar tarefas repetitivas que consomem tempo. Ao utilizar RPA para entrada de notas fiscais, é possível automatizar a captura de dados, preencher formulários eletrônicos, validar informações e até mesmo enviar as notas automaticamente para os destinatários corretos. Isso não apenas economiza tempo e recursos, mas também garante conformidade e consistência nos processos de emissão de notas.
+
+## Análise do processo de emissão de CTE/MDFE
 
 Para entender rapidamente o processo do usuário, é essencial ter interações significativas. O método de gravação das reuniões de refinamento do processo
 desempenha um papel crucial no entendimento da parte funcional do sistema e do trabalho do usuário. Com base nesse critério, foi possível mapear o estado atual do 
 processo e identificar quais integrações e melhorias internas poderiam ser aplicadas para a robotização.
 
-# Emissão de CTE e MDFE
+## Emissão de CTE e MDFE
 Este cliente possui um grande volume de emissões de CTE e MDFE.
 O usuário utiliza um coletor de dados e efetua leitura física dos produtos, as informações são integradas com uma "pasta específica no drive". Á partir desse momento o usuário precisa
 
