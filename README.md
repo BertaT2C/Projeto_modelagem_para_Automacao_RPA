@@ -2,6 +2,11 @@
 
 Aumentar a eficiência e a precisão do processo, reduzir erros e eliminar tarefas repetitivas que consomem tempo. Ao utilizar RPA para entrada de notas fiscais, é possível automatizar a captura de dados, preencher formulários eletrônicos, validar informações e até mesmo enviar as notas automaticamente para os destinatários corretos. Isso não apenas economiza tempo e recursos, mas também garante conformidade e consistência nos processos de emissão de notas.
 
+
+<img src = "https://github.com/BertaT2C/Modelagem_para_Automacao_RPA/assets/99225701/48c6fa53-4349-4e10-bf99-ac94f2586e82" height = "130"/>
+
+
+
 ## Análise do processo de emissão de CTE/MDFE
 
 Para entender rapidamente o processo do usuário, é essencial ter interações significativas. O método de gravação das reuniões de refinamento do processo
@@ -12,18 +17,18 @@ processo e identificar quais integrações e melhorias internas poderiam ser apl
 Este cliente possui um grande volume de emissões de CTE e MDFE.
 O usuário utiliza um coletor de dados e efetua leitura física dos produtos, as informações são integradas com uma "pasta específica no drive". Á partir desse momento o usuário precisa
 
-Passo 1 - Acessar pasta no drive:
+▶️Passo 1 - Acessar pasta no drive:
 - Identificar a filial da empresa
 - Efetuar login no Protheus
 
-Passo 2 - Protheus
+▶️Passo 2 - Protheus
 - Importar arquivo de leitura dentro do sistema para geração do CTE
 - Salvar informações da tela de carregamento que geraram os números dos CTEs (Ainda não enviados para a SEFAZ)
 
-*CTE será enviado para a SEFAZ somente após confirmação dos dados do motorista e carga
-*Automaticamente os CTEs são integrados com um sistema chamado Chronus (Gestão de logística)
+✅CTE será enviado para a SEFAZ somente após confirmação dos dados do motorista e carga
+✅Automaticamente os CTEs são integrados com um sistema chamado Chronus (Gestão de logística)
 
-Passo 3 - Protheus - Gerar Manifesto e CTE
+▶️Passo 3 - Protheus - Gerar Manifesto e CTE
 - Acessar tela da emissão do Manifesto
 - Incluir dados do caminhão e motorista que estão disponívei, pois foram integrados com o sistema Chronus
 - Acessar o Chronus, buscar os dados e incluir no Manifesto do Protheus
@@ -32,6 +37,7 @@ Passo 3 - Protheus - Gerar Manifesto e CTE
 
 *ERP Chronus: tem a determinação do tipo de transporte, código do cavalo, código do motorista relacionado à cada CTE
 
+## Conclusão
 
 Foram séries de passos para a emissão de CTE junto ao MDFE e, para simplificar e otimizar esse processo, optei por automatizá-lo utilizando planilhas auxiliares e integrando dados do manifesto diretamente do banco de dados, desenvolvemos um sistema automatizado que executa essas etapas de forma eficiente e precisa.
 
